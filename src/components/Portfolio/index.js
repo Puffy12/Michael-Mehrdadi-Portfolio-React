@@ -13,6 +13,8 @@ import colorSharp from "../../assets/img/color-sharp.png"
 import 'react-multi-carousel/lib/styles.css';
 import ReactPortfolioImage from '../../assets/images/react-portfolio.png';
 import ReactGradingAssistantImage from '../../assets/images/gradeassistant.png';
+import Powersearch from '../../assets/images/powersearch.png';
+import Cplusplus from '../../assets/images/cplusplus.png';
 import { Link } from 'react-router-dom';
 
 
@@ -61,15 +63,33 @@ const Portfolio = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={15} />
                     </h1>
                     <h2> 
-                    A compilation of projects or programs Im genuily proud of.
+                    A collection of projects and programs that I'm genuinely proud of and happy to share.
                     </h2>  
+                    <br/> <br/>
                     <h2>
-                    Each on of these project was a great learning experience and <br></br>I look forward to adding more to the portfolio.
+                    Each of these projects has taught me a lot, and I'm excited to keep adding more to this portfolio 
+                    as I learn and grow. Reflecting on these endeavors reminds me of the journey so far, 
+                    and I'm eager to see where the next steps will lead me. With each addition, 
+                    I aim to capture both the lessons learned and the passion driving me forward.
                     </h2> 
                     <br/>
+
                     <div className="images-container">
 
 
+                            
+                        <div className="image-box" key="1">
+
+                            <img src={Powersearch} className="portfolio-image" alt="portfolio" />
+                            <div className="content">
+                                <p className="title">Power Search </p>
+                                <h4 className="description">A website designed for teachers at ARC ,<br/>enabling them to <br/> seamlessly view, edit, download, 
+                                and delete <br/>files they've uploaded to <br/>the PowerShell server. </h4>
+                                <Link to="https://github.com/design-hub-arc/DH-Power-Search" target="_blank">
+                                    <button className="btn">View</button>
+                                </Link>
+                            </div>
+                        </div>
 
                             <div className="image-box" key="1">
 
@@ -77,7 +97,7 @@ const Portfolio = () => {
                                 <div className="content">
                                     <p className="title">Grading Assistant </p>
                                     <h4 className="description">A project made two <br/> friends and I that <br/> simulated a teacher <br/>to student grading enviorment  </h4>
-                                    <Link to="https://github.com/Puffy12/Grading-Assistant">
+                                    <Link to="https://github.com/Puffy12/Grading-Assistant" target="_blank">
                                         <button className="btn">View</button>
                                     </Link>
                                 </div>
@@ -87,8 +107,22 @@ const Portfolio = () => {
                                 <img src={ReactPortfolioImage} className="portfolio-image" alt="portfolio" />
                                 <div className="content">
                                     <p className="title">React Portfolio </p>
-                                    <h4 className="description">A bit ironic to put ones portfolio page in their portfolio itself but this <br/> was definitely a journey.</h4>
-                                    <Link to="https://github.com/Puffy12/Michael-Mehrdadi-Portfolio-React">
+                                    <h4 className="description"> It might seem ironic to include one's portfolio <br/>page within their own portfolio, 
+                                    but this journey has certainly been an <br/>major learning <br/>experience.</h4>
+                                    <Link to="https://github.com/Puffy12/Michael-Mehrdadi-Portfolio-React" target="_blank">
+                                        <button className="btn">View</button>
+                                    </Link>
+                                </div>
+                            </div>
+
+                            <div className="image-box" key="1">
+
+                                <img src={Cplusplus} className="portfolio-image" alt="portfolio" />
+                                <div className="content">
+                                    <p className="title"> C++ Problems </p>
+                                    <h4 className="description"> This compilation is a <br/> go-to resource where I gather and track various dynamic programming problems I come across online. 
+                                    You'll find <br/>solutions are written <br/> in C++. </h4>
+                                    <Link to="https://github.com/Puffy12/Coding-Problems-C-Plus-Plus" target="_blank">
                                         <button className="btn">View</button>
                                     </Link>
                                 </div>
@@ -114,11 +148,11 @@ const Portfolio = () => {
                                     
                                     <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                         <div className="item">
-                                            <img src={meter1} alt='jsx-a11y/alt-text'/>
+                                            <img src={meter2} alt='jsx-a11y/alt-text'/>
                                             <h5>Web Development</h5>
                                         </div>
                                         <div className="item">
-                                            <img src={meter2} alt='jsx-a11y/alt-text'/>
+                                            <img src={meter3} alt='jsx-a11y/alt-text'/>
                                             <h5> Software Engineer </h5>
                                         </div>
                                         <div className="item">

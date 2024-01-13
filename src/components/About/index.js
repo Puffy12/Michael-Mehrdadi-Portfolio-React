@@ -31,37 +31,31 @@ const About = () => {
         <div className="text-zone">
           <h1>
             <AnimatedLetters letterClass={letterClass}  strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']} idx={15}  />
+            
           </h1>
-          <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
-          </p>
-          <p align="LEFT">
-            I'm quiet confident, naturally curious, and perpetually working on
-            improving my skills one design problem at a time. The knowledge I gain during each project has no price.
-          </p>
-          <p>
-            If I need to define myself in one sentence that would be a family
-            person, gym enthusiast, a sports fanatic,
-            car enthusiast, and tech-obsessed!!!
-          </p>
-          <p>
-            Further Skills include
-            ● C++ Python JAVA
-            ● Full Stack web development such as
-            ● HTML, CSS, Javascript, Node.js
-            ● Working alongside Express.js and
-            SSH Powershell servers
-            ● Familiar with MongoDB
-            SpringBoot 4, REST Api Controllers
-            ● Team Worker as I love working with
-            friends and classmates on everything
-            ● Bilingual
-            Proficient in Japanese reading, writing
-            and speaking
+          <h2>
+          Hello there! I'm a spirited front-end developer eager to contribute my skills and passion to a dynamic IT company known for embracing the forefront of technology. 
+          My goal? To dive into challenging projects that not only elevate my expertise but also make a meaningful impact.
+          </h2>
+          <h2 align="LEFT">
+          Confidence paired with curiosity drives me forward. With every design challenge I encounter, my dedication to continuous improvement shines through. 
+          The invaluable insights and experiences I gather from each endeavor are truly priceless to me.
+          </h2>
+          <h2>
+          If I were to sum myself up in a few words, I'd describe myself as someone who deeply values family time, finds joy in hitting the gym regularly, 
+          has a genuine passion for sports, appreciates the intricacies of cars, and is always eager to explore the latest in technology.
+          </h2>
+          <h2>
+          Here's a snapshot of my skillset but not limited to:
+          <br/>
+          ●Programming Languages: Proficient in C++, Python, and JAVA.<br/>
+          ●Web Development Expertise: Mastery in HTML, CSS, Javascript, and Node.js.<br/>
+          ●Server & Framework: Hands-on experience with Express.js and SSH Powershell servers.<br/>
+          ●Database & Framework: Familiarity with MongoDB, SpringBoot 4, and REST Api Controllers.<br/>
+          ●Collaborative Spirit: As someone who thrives in team settings, I cherish collaborating with peers, friends, and classmates across diverse projects.<br/>
+          ●Language Proficiency: Fluent in Japanese, encompassing reading, writing, and speaking.<br/>
 
-          </p>
+          </h2>
         </div>
 
         <div className="stage-cube-cont">

@@ -50,10 +50,11 @@ const Contact = () => {
           <h1>
             <AnimatedLetters letterClass={letterClass} strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}  idx={15} />
           </h1>
-          <p>
-            Feel free to contact me if you have any small or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
-          </p>
+          <h2>
+
+          Please don't hesitate to reach out to me, whether you have a small project, 
+          a larger endeavor, or any other inquiries. Use the form below to get in touch, and I'll be happy to assist you!
+          </h2>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>

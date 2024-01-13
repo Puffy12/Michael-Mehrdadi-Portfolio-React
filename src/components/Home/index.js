@@ -9,8 +9,8 @@ import React from 'react'
 
 const Home = () => {
 
-  const nameArray = ['M','i','c','h','a','e','l','','M','e','h','r','d','a','d','i']
-  const jobArray = ['W', 'e','b',' ', 'D','e','v','e','l','o','p','e','r','.',]
+  const nameArray = ['M','i','c','h','a','e','l',' ','M','e','h','r','d','a','d','i']
+  const jobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r'];
 
   const [letterClass, setLetterClass] = useState('text-animate')
 
