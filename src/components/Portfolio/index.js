@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import Loader from 'react-loaders'
 import Carousel from "react-multi-carousel";
-//import { Container , Col , Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import meter1 from "../../assets/img/meter1.svg";
 import meter2 from "../../assets/img/meter2.svg";
@@ -17,8 +16,6 @@ import Powersearch from '../../assets/images/powersearch.png';
 import Cplusplus from '../../assets/images/cplusplus.png';
 import { Link } from 'react-router-dom';
 
-
-//import LogoTitle from '../../assets/images/logo-s.png'
 
 const responsive = {
   superLargeDesktop: {
@@ -185,79 +182,3 @@ const Portfolio = () => {
   
   export default Portfolio
 
-
-  /*
-                              <div className="image-box" key="1">
-                                <img 
-                                src={"../../assets/images/logo-s.png"}
-                                className="portfolio-image"
-                                alt="portfolio" />
-                                <div className="content">
-                                    <p className="title">Title 1 </p>
-                                    <h4 className="description">description</h4>
-                                    <button
-                                        className="btn">View</button>
-                                </div>
-                            </div>
-
-                            <div className="image-box" key="1">
-                                <img 
-                                src={"../../assets/images/logo-s.png"}
-                                className="portfolio-image"
-                                alt="portfolio" />
-                                <div className="content">
-                                    <p className="title">Title 1 </p>
-                                    <h4 className="description">description</h4>
-                                    <button
-                                        className="btn">View</button>
-                                </div>
-                            </div>
-
-                            <div className="image-box" key="1">
-                                <img 
-                                src={"../../assets/images/logo-s.png"}
-                                className="portfolio-image"
-                                alt="portfolio" />
-                                <div className="content">
-                                    <p className="title">Title 1 </p>
-                                    <h4 className="description">description</h4>
-                                    <button
-                                        className="btn">View</button>
-                                </div>
-                            </div>
-
-
-        <section className="skill" id="skills">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12">
-                                <div className="skill-bx wow zoomIn">
-                                    <h2>
-                                        <AnimatedLetters letterClass={letterClass}  strArray={['S','k','i','l','l','s']} idx={15}  />
-                                    </h2>
-                                    
-                                    <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
-                                        <div className="item">
-                                            <img src={meter1}/>
-                                            <h5>Web Development</h5>
-                                        </div>
-                                        <div className="item">
-                                            <img src={meter2}/>
-                                            <h5> Software Engineer </h5>
-                                        </div>
-                                        <div className="item">
-                                            <img src={meter3}/>
-                                            <h5> Problem Solver </h5>
-                                        </div>
-                                        <div className="item">
-                                            <img src={meter1} />
-                                            <h5> Computer Science Student </h5>
-                                        </div>
-                                    </Carousel>
-                                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-  */

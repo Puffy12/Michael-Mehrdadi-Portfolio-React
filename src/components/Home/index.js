@@ -51,22 +51,5 @@ const Home = () => {
   )
 }
 
-/*
-<AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
-            <br />
-            <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
-
-            useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 4000)
-  }, [])
-
-  const [letterClass, setLetterClass] = useState('text-animate')
-
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
-  const jobArray = ['w', 'e','b',' ', 'd','e','v','e','l', 'o','p','e','r','.',]
-
-*/
 
 export default Home;
