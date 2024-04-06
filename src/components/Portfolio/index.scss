@@ -13,11 +13,14 @@
     &:hover {
         background: #ffd700;
         color: #333;
+        animation: fadeInAnimation 1s 1.8s backwards;
+
     }
 }
 
 h3{
     color: #ffd700;
+    font-size: 10px;
     font-family: sans-serif;
     letter-spacing: 2px;
     animation: fadeIn 1s 1.8s backwards;

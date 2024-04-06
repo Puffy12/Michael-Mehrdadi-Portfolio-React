@@ -61,9 +61,14 @@ const Portfolio = () => {
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={15} />
                     </h1>
+                    <h3> This is not my main site as it was meant for learning if you wish to see my main site check the link below :)</h3>
+                        <Link to="https://michael-mehrdadi-personal-portfolio.vercel.app/" className="flat-button" target="_blank">
+                            Main Portfolio 
+                        </Link>  
                     <h2> 
                     A collection of projects and programs that I'm genuinely proud of and happy to share.
                     </h2>  
+          
                     <br/> <br/>
                     <h2>
                     Each of these projects has taught me a lot, and I'm excited to keep adding more to this portfolio 
@@ -80,10 +85,6 @@ const Portfolio = () => {
                                 <img src={portfolio} className="portfolio-image" alt="portfolio" />
                                 <div className="content">
                                     <p className="title">Personal Portfolio</p>
-                                    <h4 className="description">This is not my main site as it was meant for learning if you wish to <br/>see my main site<br/> check the link below :)</h4>
-                                    <Link to="https://michael-mehrdadi-personal-portfolio.vercel.app/" target="_blank">
-                                        <button className="btn">View</button>
-                                    </Link>
                                 </div>
                             </div>
                             
@@ -174,10 +175,6 @@ const Portfolio = () => {
                                         </div>
                                     </Carousel>
 
-                                    <h3> This is not my main site as it was meant for learning if you wish to see my main site check the link below :)</h3>
-                                    <Link to="https://michael-mehrdadi-personal-portfolio.vercel.app/" className="flat-button" target="_blank">
-                                        Main Portfolio 
-                                    </Link>  
 
                                 </div>
                             </div>
