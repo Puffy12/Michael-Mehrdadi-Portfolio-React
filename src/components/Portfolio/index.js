@@ -13,6 +13,7 @@ import 'react-multi-carousel/lib/styles.css';
 import ReactPortfolioImage from '../../assets/images/react-portfolio.png';
 import ReactGradingAssistantImage from '../../assets/images/gradeassistant.png';
 import Powersearch from '../../assets/images/powersearch.png';
+import portfolio from '../../assets/images/portfolio.png';
 import Cplusplus from '../../assets/images/cplusplus.png';
 import { Link } from 'react-router-dom';
 
@@ -56,6 +57,7 @@ const Portfolio = () => {
         <>
             <div className="container portfolio-page">
                 <div className="text-zone">
+                    <br/> <br/>
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={textArray} idx={15} />
                     </h1>
@@ -73,20 +75,30 @@ const Portfolio = () => {
 
                     <div className="images-container">
 
+                            <div className="image-box" key="1">
 
-                            
-                        <div className="image-box" key="1">
-
-                            <img src={Powersearch} className="portfolio-image" alt="portfolio" />
-                            <div className="content">
-                                <p className="title">Power Search </p>
-                                <h4 className="description">A website designed for teachers at ARC ,<br/>enabling them to <br/> seamlessly view, edit, download, 
-                                and delete <br/>files they've uploaded to <br/>the PowerShell server. </h4>
-                                <Link to="https://github.com/design-hub-arc/DH-Power-Search" target="_blank">
-                                    <button className="btn">View</button>
-                                </Link>
+                                <img src={portfolio} className="portfolio-image" alt="portfolio" />
+                                <div className="content">
+                                    <p className="title">Personal Portfolio</p>
+                                    <h4 className="description">This is not my main site as it was meant for learning if you wish to <br/>see my main site<br/> check the link below :)</h4>
+                                    <Link to="https://michael-mehrdadi-personal-portfolio.vercel.app/" target="_blank">
+                                        <button className="btn">View</button>
+                                    </Link>
+                                </div>
                             </div>
-                        </div>
+                            
+                            <div className="image-box" key="1">
+
+                                <img src={Powersearch} className="portfolio-image" alt="portfolio" />
+                                <div className="content">
+                                    <p className="title">Power Search </p>
+                                    <h4 className="description">A website designed for teachers at ARC ,<br/>enabling them to <br/> seamlessly view, edit, download, 
+                                    and delete <br/>files they've uploaded to <br/>the PowerShell server. </h4>
+                                    <Link to="https://github.com/design-hub-arc/DH-Power-Search" target="_blank">
+                                        <button className="btn">View</button>
+                                    </Link>
+                                </div>
+                            </div>
 
                             <div className="image-box" key="1">
 
@@ -161,13 +173,20 @@ const Portfolio = () => {
                                             <h5> Computer Science Student </h5>
                                         </div>
                                     </Carousel>
-                                
+
+                                    <h3> This is not my main site as it was meant for learning if you wish to see my main site check the link below :)</h3>
+                                    <Link to="https://michael-mehrdadi-personal-portfolio.vercel.app/" className="flat-button" target="_blank">
+                                        Main Portfolio 
+                                    </Link>  
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
                 
+
+      
             </div>
 
            

@@ -25,19 +25,19 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-    .sendForm('service_kcrns53', 'template_wvwng5p', form.current, '_B0wqZ-AYnGzJWkkX')
+    .sendForm('1', '1', form.current, '1')
     .then(
       (response) => {
         if (response.status === 200) {
           alert('Message successfully sent!');
           window.location.reload(false);
         } else {
-          alert('Failed to send the message, please try again');
+          alert('Email Sever not active as this is not an my main site if you wish to contact me please :)');
         }
       },
       (error) => {
         console.error('Error sending the email:', error);
-        alert('Failed to send the message, please try again');
+        alert('Email Sever not active as this is not an my main site if you wish to contact me please :)');
       }
     );
 
