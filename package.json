@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vercel/edge-config": "^1.1.0",
     "animate.css": "^4.1.1",
     "gsap": "^3.12.5",
     "loaders.css": "^0.1.2",
@@ -21,7 +22,7 @@
     "react-loaders": "^3.0.1",
     "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^6.21.1",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^3.0.1",
     "sass": "^1.69.5",
     "web-vitals": "^2.1.4"
   },
