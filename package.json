@@ -22,7 +22,7 @@
     "react-loaders": "^3.0.1",
     "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^6.21.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^0.0.0",
     "sass": "^1.69.5",
     "web-vitals": "^2.1.4"
   },
