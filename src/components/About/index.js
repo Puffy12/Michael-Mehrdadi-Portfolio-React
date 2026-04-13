@@ -34,7 +34,7 @@ const About = () => {
             
           </h1>
           <h2>
-          Hello there! I'm a spirited front-end developer eager to contribute my skills and passion to a dynamic IT company known for embracing the forefront of technology. 
+          Hello there! I'm a spirited full-stack developer eager to contribute my skills and passion to a dynamic IT company known for embracing the forefront of technology. 
           My goal? To dive into challenging projects that not only elevate my expertise but also make a meaningful impact.
           </h2>
           <h2 align="LEFT">
